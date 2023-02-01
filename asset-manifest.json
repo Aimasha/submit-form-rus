@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/submit-form-rus/static/css/main.81a9563e.css",
+    "main.js": "/submit-form-rus/static/js/main.ad8a54da.js",
+    "static/js/787.9f7ccca0.chunk.js": "/submit-form-rus/static/js/787.9f7ccca0.chunk.js",
+    "index.html": "/submit-form-rus/index.html",
+    "main.81a9563e.css.map": "/submit-form-rus/static/css/main.81a9563e.css.map",
+    "main.ad8a54da.js.map": "/submit-form-rus/static/js/main.ad8a54da.js.map",
+    "787.9f7ccca0.chunk.js.map": "/submit-form-rus/static/js/787.9f7ccca0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81a9563e.css",
+    "static/js/main.ad8a54da.js"
+  ]
+}
