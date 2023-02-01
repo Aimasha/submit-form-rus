@@ -1,0 +1,303 @@
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 926px){
+ 
+  header {
+    background-color: #004767;
+    color: rgb(252, 252, 252);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .header {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 150px;
+  }
+   .submit-content {
+    margin-left: 15px;
+   }
+  nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #03BFCB;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  } 
+  .header {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+  }
+ .container {
+  margin-top: 20px; 
+  /* border: 1px solid gray; */
+} 
+ .service-container {
+  margin: auto;
+  width: 90%;
+  align-items: center;
+}
+.container-submit {
+  margin-top: 10px;
+  width: 100%;
+  /* padding: 15px; */
+}
+textarea {
+  width: 95%;
+}
+  select {
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+  }
+  .rd {
+    font-size: large;
+    margin-top: 10px;
+  }
+  .mb-3 {
+    margin-top: 30px;
+  }
+  .btn-next {
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .active {
+    color: white;
+    border-radius: 8px;
+    width: 20%;
+    font-size: 15px;
+  }
+  h6 {
+    color: #004767;
+    margin-left: 7px;
+  }
+  .sent-text {
+    font-size: larger;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+  }
+  p {
+    display: inline-block;
+    color: gray;
+    margin-left: 5px;
+  }
+  .btn2-next {
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } 
+  .btn-prev {
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btn-submit{
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btn3-prev{
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+} 
+
+
+@media only screen and (min-device-width : 926px) and (max-device-width : 1605px){
+  .container {
+    width: 70%;
+    margin-top: 10px;
+    border: 1px solid rgb(240, 229, 229);
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px 30px rgba(68, 65, 65, 0.1);
+    height: 630px;
+  }
+  .service-container {
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    height: 1030px;
+    padding: 10px;
+  }
+  .container-submit {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 80%;
+    height: 1570px;
+    padding: 10px;
+  }
+  p {
+    display: inline-block;
+    color: gray;
+    margin-left: 10px;
+    font-size: larger;
+  }
+  h6 {
+    margin-left:  10px;
+  }
+  textarea {
+    width: 98%;
+  }
+ 
+  li {
+    font-size: larger;
+  }
+  .active {
+    color: #083f63;
+    font-size: 20px;
+    /* border: 1px solid rgb(133, 132, 132); */
+    /* background-color: #004767; */
+    border-radius: 8px;
+    width: 25%;
+  }
+  .show {
+    visibility: visible;
+  }
+  .hide {
+    visibility: hidden;
+  }
+  .rd {
+    font-size: large;
+    margin-top: 10px;
+  }
+  select {
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+  }
+  .mb-3 {
+    margin-top: 15px;
+  }
+  nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #03BFCB;
+    color: white;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    /* font-size: 200px; */
+  } 
+  .size {
+    font-size: 20px;
+  }
+  header {
+    background-color: #004767;
+    color: rgb(252, 252, 252);
+    width: 100%;
+    text-align: center;
+  }
+   h6 .header {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+  }
+  .btn-next {
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 15%;
+  }
+  .btn2-next {
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 15%;
+    margin-left: 20px;
+  } 
+  .btn-prev {
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 15%;
+    margin-left: 30px;
+  }
+  .btn-submit{
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 15%;
+    margin-left: 20px;
+  }
+  .btn3-prev{
+    background-color: #03BFCB;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    width: 15%;
+    margin-left: 30px;
+  }
+  .sent-text {
+    font-size: larger;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+  }
+  .radio1 {
+    font-size: 20px;
+  }
+  .radio{
+    font-size: 20px;
+  }
+}
