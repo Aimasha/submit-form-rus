@@ -40,7 +40,7 @@ function App() {
     formTitles: {
       info: "Личная информация",
       service: "Убежище",
-      submitInfo: "Отправка формы"
+      submitInfo: "Проверка"
     }
   });
 

@@ -131,12 +131,12 @@ const Asylym = () => {
                     className="btn-prev"
                     onClick={handlePrevClick}
                 >
-                    Prev</button>
+                    Назад</button>
                 <button
                     disabled={!personData.why && handleClickNext}
                     onClick={handleClickNext}
                     className="btn2-next">
-                    Next
+                    Вперед
                 </button>
             </div>
 

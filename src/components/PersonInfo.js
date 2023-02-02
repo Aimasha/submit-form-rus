@@ -158,7 +158,7 @@ const PersonInfo = () => {
         disabled={!personData.address && handleClickNext}
         onClick={handleClickNext}
         className="btn-next">
-        Next
+        Вперед
       </button>
 
     </div>

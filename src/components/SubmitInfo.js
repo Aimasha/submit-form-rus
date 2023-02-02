@@ -102,8 +102,8 @@ const SubmitInfo = () => {
         </div>
         <div className="btns-submit">
         {result ? <Result/> : null}   
-          <button onClick={handlePrevClick} className="btn3-prev">Prev</button>
-          <button type="submit" value="sendForm" className="btn-submit"> Submit </button>
+          <button onClick={handlePrevClick} className="btn3-prev">Назад</button>
+          <button type="submit" value="sendForm" className="btn-submit"> Отправить </button>
         </div>
       </div>
     </div>
