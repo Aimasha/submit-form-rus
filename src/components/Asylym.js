@@ -8,9 +8,9 @@ const Asylym = () => {
 
         <div className="service-container">
 
-            <h4 className="asylym-title">Убежище:</h4>
+            <h4 className="asylym-title">Asylem:</h4>
             <ol>
-                <li>Подвергались ли Вы или ваша семья угрозам или вреду?</li>
+                <li>Have you or your family been threatened or harmed?</li>
 
                 <div className="radio1">
                     <input
@@ -20,7 +20,7 @@ const Asylym = () => {
                         type="radio"
                         onChange={(e) => setPersonData({ ...personData, radio: e.target.value })}
                     />
-                    Да
+                    Yes
                 </div>
                 <div className="radio">
                     <input
@@ -30,28 +30,28 @@ const Asylym = () => {
                         type="radio"
                         onChange={(e) => setPersonData({ ...personData, radio: e.target.value })}
                     />
-                    Нет
+                    No
                 </div>
 
-                <li>Кто Вам угрожал или причинил вред? </li>
+                <li>Who threatened or harmed you?</li>
 
                 <textarea required name="threat" value={personData.threat} onChange={(e) => setPersonData({ ...personData, threat: e.target.value })} id="story"
                     rows="1" cols="70">
                 </textarea>
 
-                <li>Что произошло?  (опишите все инциденты угроз, притеснений, и причинений вреда)</li>
+                <li>What happened? (describe any incidents of threats, harassment, and harm)?</li>
 
                 <textarea required value={personData.reason} onChange={(e) => setPersonData({ ...personData, reason: e.target.value })} id="story" name="reason"
                     rows="8" cols="70">
                 </textarea>
 
-                <li>Когда произошли эти инциденты вреда (примерные даты)? </li>
+                <li>When did these incidents of harm occur (approximate dates)?</li>
 
                 <textarea required value={personData.when} onChange={(e) => setPersonData({ ...personData, when: e.target.value })} id="story" name="when"
                     rows="1" cols="70">
                 </textarea>
 
-                <li>Из-за чего вам угрожали и/или причинили вред? (выберите все подходящие вам варианты и объясните ниже) </li>
+                <li>Why were you threatened and/or harmed? (select all that apply to you and explain below)?</li>
 
                 <div onChange={(e) => setPersonData({ ...personData, why: e.target.value })} className="rd">
                     <input
@@ -61,7 +61,7 @@ const Asylym = () => {
                         type="radio"
                         onChange={(e) => setPersonData({ ...personData, why: e.target.value })}
                     />
-                    <label > Расовая или этническая нетерпимость.</label>
+                    <label > Racial or ethnic intolerance.</label>
                 </div>
 
                 <div onChange={(e) => setPersonData({ ...personData, another: e.target.value })} className="rd" >
@@ -72,7 +72,7 @@ const Asylym = () => {
                         type="radio"
                         onChange={(e) => setPersonData({ ...personData, why: e.target.value })}
                     />
-                    <label > Религиозная нетерпимость. </label>
+                    <label > Religious intolerance. </label>
                 </div>
 
                 <div onChange={(e) => setPersonData({ ...personData, another: e.target.value })} className="rd" >
@@ -83,7 +83,7 @@ const Asylym = () => {
                         type="radio"
                         onChange={(e) => setPersonData({ ...personData, why: e.target.value })}
                     />
-                    Из-за политических убеждений.
+                    Because of political opinions.
                 </div>
 
                 <div onChange={(e) => setPersonData({ ...personData, another: e.target.value })} className="rd" >
@@ -94,8 +94,7 @@ const Asylym = () => {
                         type="radio"
                         onChange={(e) => setPersonData({ ...personData, why: e.target.value })}
                     />
-                    Сексуальная ориентация, Пол ,
-                </div>
+                    Sexual orientation, Gender </div>
 
                 <div className="rd" >
                     <input
@@ -105,20 +104,19 @@ const Asylym = () => {
                         type="radio"
                         onChange={(e) => setPersonData({ ...personData, another: e.target.value })}
                     />
-                    Другое.
-                </div>
+                    Other                </div>
 
                 <textarea required value={personData.extra} onChange={(e) => setPersonData({ ...personData, extra: e.target.value })} id="story" name="why"
                     rows="3" cols="70">
                 </textarea>
 
-                <li>Что будет с Вами если вы вернетесь в свою страну? </li>
+                <li>What will happen to you if you return to your country?</li>
 
                 <textarea required value={personData.harm} onChange={(e) => setPersonData({ ...personData, harm: e.target.value })} id="story" name="harm"
                     rows="3" cols="70">
                 </textarea>
 
-                <li>Что еще вы хотите сообщить адвокату? </li>
+                <li>What else would you like to tell the lawyer? </li>
 
                 <textarea required value={personData.else} onChange={(e) => setPersonData({ ...personData, else: e.target.value })} id="story" name="else"
                     rows="8" cols="70">
@@ -131,12 +129,11 @@ const Asylym = () => {
                     className="btn-prev"
                     onClick={handlePrevClick}
                 >
-                    Назад</button>
+                    Back</button>
                 <button
-                    disabled={!personData.why && handleClickNext}
                     onClick={handleClickNext}
                     className="btn2-next">
-                    Вперед
+                    Next
                 </button>
             </div>
 

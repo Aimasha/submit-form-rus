@@ -19,37 +19,37 @@ const SubmitInfo = () => {
             <hr />
           </div>
           <div>
-            <p> Имя </p>
+            <p> First name </p>
             <h6>{personData.firstName}</h6>
             <hr />
           </div>
           <div>
-            <p> Фамилия</p>
+            <p> Last name</p>
             <h6>{personData.lastName}</h6>
             <hr />
           </div>
           <div>
-            <p> Дата рождения</p>
+            <p> Data of birth</p>
             <h6>{personData.dateBirth}</h6>
             <hr />
           </div>
           <div>
-            <p>Пол</p>
+            <p>Gender</p>
             <h6>{personData.gender}</h6>
             <hr />
           </div>
           <div>
-            <p> Страна рождения</p>
+            <p> Country of birth</p>
             <h6>{personData.place}</h6>
             <hr />
           </div>
           <div>
-            <p>Гражданство</p>
+            <p>Nationality</p>
             <h6>{personData.nationality}</h6>
             <hr />
           </div>
           <div>
-            <p>Телефон</p>
+            <p>Phone</p>
             <h6>{personData.phone}</h6>
             <hr />
           </div>
@@ -59,51 +59,51 @@ const SubmitInfo = () => {
             <hr />
           </div>
           <div>
-            <p>Адрес Проживания</p>
+            <p>Address</p>
             <h6>{personData.address}</h6>
             <hr />
           </div>
           <div>
 
-            <p>Подвергались ли Вы или ваша семья угрозам или вреду?</p>
+            <p>Have you or your family been threatened or harmed?</p>
             <h6>{personData.radio}</h6>
             <hr />
           </div>
           <div>
-            <p>Кто Вам угрожал или причинил вред? </p>
+            <p>Who threatened or harmed you?</p>
             <h6>{personData.threat}</h6>
             <hr />
           </div>
           <div>
-            <p>Что произошло?  (опишите все инциденты угроз, притеснений, и причинений вреда)</p>
+            <p>What happened? (describe any incidents of threats, harassment, and harm)?</p>
             <h6>{personData.reason}</h6>
             <hr />
           </div>
           <div>
-            <p>Когда произошли эти инциденты вреда (примерные даты)?  </p>
+            <p>When did these incidents of harm occur (approximate dates)?  </p>
             <h6>{personData.when}</h6>
             <hr />
           </div>
           <div>
-            <p>Из-за чего вам угрожали и/или причинили вред? (выберите все подходящие вам варианты и объясните ниже) </p>
-            <h6>{personData.why},{personData.another},{personData.extra}</h6>
+            <p>Why were you threatened and/or harmed? </p>
+            <h6>{personData.why}{personData.another}{personData.extra}</h6>
             <hr />
           </div>
           <div>
-            <p>Что будет с Вами если вы вернетесь в свою страну? </p>
+            <p>What will happen to you if you return to your country?</p>
             <h6>{personData.harm}</h6>
             <hr />
           </div>
           <div>
-            <p>Что еще вы хотите сообщить адвокату?  </p>
+            <p>What else would you like to tell the lawyer?  </p>
             <h6>{personData.else}</h6>
             <hr />
           </div>
         </div>
         <div className="btns-submit">
         {result ? <Result/> : null}   
-          <button onClick={handlePrevClick} className="btn3-prev">Назад</button>
-          <button type="submit" value="sendForm" className="btn-submit"> Отправить </button>
+          <button onClick={handlePrevClick} className="btn3-prev">Back</button>
+          <button type="submit" value="sendForm" className="btn-submit"> Send </button>
         </div>
       </div>
     </div>

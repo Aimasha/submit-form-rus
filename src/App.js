@@ -35,12 +35,12 @@ function App() {
   const [result, setResult] = useState(false);
   const [validated, setValidated] = useState(false);
   const [page, setPage] = useState(0);
-  const [selected, setSelected] = useState("Семейная иммиграция");
+  const [selected, setSelected] = useState("Family immigration");
   const [title] = useState({
     formTitles: {
-      info: "Личная информация",
-      service: "Убежище",
-      submitInfo: "Проверка"
+      info: "Personal information      ",
+      service: "Asylem",
+      submitInfo: "Submit Form"
     }
   });
 
@@ -77,33 +77,33 @@ function App() {
     }, 1000)
 
 
-    emailjs.send("service_34e5zrk", "template_ak85ekk", personData, "D0SVtaJwSKyD9NsWj")
-      .then(response => {
-        console.log("Success", response);
-        setPersonData({
-          number: "",
-          firstName: "",
-          lastName: "",
-          place: "",
-          dateBirth: "",
-          nationality: "",
-          phone: "",
-          gender: "",
-          address: "",
-          email: "",
-          radio: "",
-          threat: "",
-          reason: "",
-          harm: "",
-          why: "",
-          when: "",
-          else: "",
-          extra: "",
-          another: ""
-        })
-      }, error => {
-        console.log("Failed", error);
-      })
+    // emailjs.send("service_34e5zrk", "template_ak85ekk", personData, "D0SVtaJwSKyD9NsWj")
+    //   .then(response => {
+    //     console.log("Success", response);
+    //     setPersonData({
+    //       number: "",
+    //       firstName: "",
+    //       lastName: "",
+    //       place: "",
+    //       dateBirth: "",
+    //       nationality: "",
+    //       phone: "",
+    //       gender: "",
+    //       address: "",
+    //       email: "",
+    //       radio: "",
+    //       threat: "",
+    //       reason: "",
+    //       harm: "",
+    //       why: "",
+    //       when: "",
+    //       else: "",
+    //       extra: "",
+    //       another: ""
+    //     })
+    //   }, error => {
+    //     console.log("Failed", error);
+    //   })
   };
   
 

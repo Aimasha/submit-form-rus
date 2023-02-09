@@ -16,7 +16,6 @@ const PersonInfo = () => {
           A-number
         </InputGroup.Text>
         <Form.Control
-          required
           type="text"
           name="number"
           value={personData.number}
@@ -29,10 +28,9 @@ const PersonInfo = () => {
       <InputGroup
         className="mb-3">
         <InputGroup.Text id="inputGroup-sizing-default">
-          Имя
+          First name
         </InputGroup.Text>
         <Form.Control
-          required
           type="text"
           name="first_name"
           value={personData.firstName}
@@ -44,10 +42,9 @@ const PersonInfo = () => {
 
       <InputGroup className="mb-3">
         <InputGroup.Text id="inputGroup-sizing-default">
-          Фамилия
+          Last name
         </InputGroup.Text>
         <Form.Control
-          required
           type="text"
           name="last_name"
           value={personData.lastName}
@@ -58,20 +55,19 @@ const PersonInfo = () => {
       </InputGroup>
       <div>
         <select name="gender" value={personData.gender} onChange={(e) => setPersonData({ ...personData, gender: e.target.value })} >
-          <option value="gender">Пол</option>
-          <option value="female">Женский</option>
-          <option value="male">Мужской</option>
-          <option value="other">Другой</option>
+          <option value="gender">Gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Other</option>
         </select>
       </div>
 
 
       <InputGroup className="mb-3">
         <InputGroup.Text id="inputGroup-sizing-default">
-          Дата рождения
+           Date of birth
         </InputGroup.Text>
         <Form.Control
-          required
           name="date_birth"
           value={personData.dateBirth}
           onChange={(e) => setPersonData({ ...personData, dateBirth: e.target.value })}
@@ -79,10 +75,9 @@ const PersonInfo = () => {
       </InputGroup>
       <InputGroup className="mb-3">
         <InputGroup.Text id="inputGroup-sizing-default">
-          Страна рождения
+         Country of birth
         </InputGroup.Text>
         <Form.Control
-          required
           type="text"
           name="place_birth"
           value={personData.place}
@@ -94,10 +89,9 @@ const PersonInfo = () => {
 
       <InputGroup className="mb-3">
         <InputGroup.Text id="inputGroup-sizing-default">
-          Гражданство
+          Nationality
         </InputGroup.Text>
         <Form.Control
-          required
           type="text"
           name="nation"
           value={personData.nationality}
@@ -110,10 +104,9 @@ const PersonInfo = () => {
       <div className="number-email">
         <InputGroup className="mb-3">
           <InputGroup.Text id="inputGroup-sizing-default">
-            Телефон
+            Phone
           </InputGroup.Text>
           <Form.Control
-            required
             type="number"
             name="phone"
             value={personData.phone}
@@ -128,7 +121,6 @@ const PersonInfo = () => {
             Email
           </InputGroup.Text>
           <Form.Control
-            required
             type="email"
             name="email"
             value={personData.email}
@@ -142,10 +134,9 @@ const PersonInfo = () => {
       </div>
       <InputGroup className="mb-3">
         <InputGroup.Text id="inputGroup-sizing-default">
-          Адрес проживания
+          Address
         </InputGroup.Text>
         <Form.Control
-          required
           type="text"
           name="address"
           value={personData.address}
@@ -155,10 +146,9 @@ const PersonInfo = () => {
         />
       </InputGroup>
       <button
-        disabled={!personData.address && handleClickNext}
         onClick={handleClickNext}
         className="btn-next">
-        Вперед
+        Next
       </button>
 
     </div>

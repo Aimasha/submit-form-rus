@@ -4,7 +4,7 @@ const NavBar = ({ title, page }) => {
     return (
         <div className="navbar">
             <header>
-                <h5 className="header">АНКЕТА НА КОНСУЛЬТАЦИЮ </h5>
+                <h5 className="header">FORM FOR CONSULTATION </h5>
             </header>
             <nav>
                 <h6 className={page === 0 ? "active" : "size"}>{title.info}</h6>
